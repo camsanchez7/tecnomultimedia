@@ -1,11 +1,6 @@
 /*
 Alumna: Camila Sanchez. Legajo 82331/7
 Comision 2. Profesor Matias Jauregui Lorda
-
-CHECKLIST
-- Al menos 1 función propia con parámetros (al menos 1) que RETORNA un valor// FALTA
-- Ciclos FOR anidados. // REPETICION Y TAMAÑO DEL DIBUJO 
-
 */
 
 //VARIABLES
