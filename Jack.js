@@ -3,7 +3,9 @@ class Jack {
     this.x = x;
     this.y = y;
     this.colorJ = color (255, 0, 0);
-    this.vidas = 3;
+    this.vidas = 3; 
+    // al ejecutar el programa y por mas que use el return en getVidas no me devuelve el valor que le asigné.
+    // esto fue lo que mas me trabó para calcular la condicion de las colisiones.
   }
 
   dibujar() {
