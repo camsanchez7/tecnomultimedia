@@ -39,7 +39,6 @@ class Aventura {
 
       //---------------------------------------CREDITOS
     } else if ( this.estado == "creditos" ) {
-      imageMode (CORNER);
       image ( this.fotos [17], 0, 0, 600, 600);
       this.arregloTexto (24, fuente1, color(212, 175, 55 ));
       text ("CRÉDITOS", 300, 210);
@@ -49,7 +48,6 @@ class Aventura {
 
       //---------------------PAGINA 1. Introduccion de Nick Carraway
     } else if ( this.estado == "pantalla1" ) {
-      imageMode (CORNER);
       image (this.fotos [1], 0, 0, 600, 600);
       this.cuadroDeTexto(50, 430, 500, 110);
       this.arregloTexto (15, fuente2, color(0));
@@ -59,7 +57,6 @@ class Aventura {
 
       //---------------------PAGINA 2. Conoce a Daisy Buchanan
     } else if ( this.estado == "pantalla2" ) {
-      imageMode (CORNER);
       image ( this.fotos [2], 0, 0, 600, 600);
       this.cuadroDeTexto( 50, 430, 500, 110);
       this.arregloTexto (15, fuente2, color(0));
@@ -68,7 +65,6 @@ class Aventura {
 
       //---------------------PAGINA 3. Conoce a Jay Gatsby
     } else if ( this.estado == "pantalla3" ) {
-      imageMode (CORNER);
       image ( this.fotos [3], 0, 0, 600, 600);
       this.cuadroDeTexto( 50, 440, 500, 105);
       this.arregloTexto (15, fuente2, color(0));
@@ -77,7 +73,6 @@ class Aventura {
 
       //---------------------PAGINA 4. Noche de la fiesta
     } else if ( this.estado == "pantalla4" ) {
-      imageMode (CORNER);
       image ( this.fotos [4], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 440, 500, 120);
       this.arregloTexto (15, fuente2, color(0));
@@ -88,7 +83,6 @@ class Aventura {
 
       //---------------------PAGINA 5. OPCION A. Camino de la izquierda
     } else if ( this.estado == "pantalla5" ) {
-      imageMode (CORNER);
       image ( this.fotos [5], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 430, 500, 140);
       this.arregloTexto (15, fuente2, color(0));
@@ -98,7 +92,6 @@ class Aventura {
 
       //---------------------PAGINA 6. OPCION B. Camino del medio
     } else if ( this.estado == "pantalla6" ) {
-      imageMode (CORNER);
       image ( this.fotos [6], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 450, 500, 120);
       this.arregloTexto (15, fuente2, color(0));
@@ -108,7 +101,6 @@ class Aventura {
 
       //---------------------PAGINA 7. OPCION C. Camino de la derecha
     } else if ( this.estado == "pantalla7" ) {
-      imageMode (CORNER);
       image ( this.fotos [7], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 450, 500, 100);
       this.arregloTexto (15, fuente2, color(0));
@@ -117,7 +109,6 @@ class Aventura {
 
       //---------------------PAGINA 8. Jay es asesinado por Tom. FINAL 1
     } else if ( this.estado == "pantalla8" ) {
-      imageMode (CORNER);
       image ( this.fotos [8], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 430, 500, 130);
       this.arregloTexto (15, fuente2, color(0));
@@ -126,7 +117,6 @@ class Aventura {
 
       //---------------------PAGINA 9. Tom muestra las pruebas de la investigacion sobre Jay
     } else if ( this.estado == "pantalla9" ) {
-      imageMode (CORNER);
       image ( this.fotos [9], 0, 0, 600, 600);
       this.cuadroDeTexto( 50, 210, 500, 130);
       this.arregloTexto (15, fuente2, color(0));
@@ -137,7 +127,6 @@ class Aventura {
 
       //---------------------PAGINA 10. Distraccion de los invitados
     } else if ( this.estado == "pantalla10" ) {
-      imageMode (CORNER);
       image ( this.fotos [10], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 470, 500, 80);
       this.arregloTexto (15, fuente2, color(0));
@@ -146,7 +135,6 @@ class Aventura {
 
       //---------------------PAGINA 11. Nick como intermediario de la pareja
     } else if ( this.estado == "pantalla11" ) {
-      imageMode (CORNER);
       image ( this.fotos [11], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 40, 500, 140);
       this.arregloTexto (15, fuente2, color(0));
@@ -156,7 +144,6 @@ class Aventura {
 
       //---------------------PAGINA 12. Nick se emociona con la idea de ayudar a la pareja. Reencuentro secreto
     } else if ( this.estado == "pantalla12" ) {
-      imageMode (CORNER);
       image ( this.fotos [12], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 150, 500, 120);
       this.arregloTexto (15, fuente2, color(0));
@@ -166,7 +153,6 @@ class Aventura {
 
       //---------------------PAGINA 13. Nick queda sorprendido por la confesion y Tom comienza a sospechar
     } else if ( this.estado == "pantalla13" ) {
-      imageMode (CORNER);
       image ( this.fotos [13], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 340, 500, 160);
       this.arregloTexto (15, fuente2, color(0));
@@ -175,7 +161,6 @@ class Aventura {
 
       //---------------------PAGINA 14. Daisy y Jay planean su huida
     } else if ( this.estado == "pantalla14" ) {
-      imageMode (CORNER);
       image ( this.fotos [14], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 420, 500, 110);
       this.arregloTexto (15, fuente2, color(0));
@@ -184,7 +169,6 @@ class Aventura {
 
       //---------------------PAGINA 15. Escapan para comenzar una nueva vida. FINAL 3. PANTALLA GANASTE
     } else if ( this.estado == "pantalla15" ) {
-      imageMode (CORNER);
       image ( this.fotos [15], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 450, 500, 110);
       this.arregloTexto (15, fuente2, color(0));
@@ -196,7 +180,6 @@ class Aventura {
 
       //---------------------PAGINA 16.  Jay va preso. FINAL 2. PANTALLA PERDISTE
     } else if ( this.estado == "pantalla16" ) {
-      imageMode (CORNER);
       image ( this.fotos [16], 0, 0, 600, 600);
       this.cuadroDeTexto ( 50, 440, 500, 110);
       this.arregloTexto (15, fuente2, color(0));
@@ -216,7 +199,6 @@ class Aventura {
 
       //------------------------------------------- JUEGO
     } else if (this.estado == "jugando" ) {
-      imageMode (CORNER);
       image (this.fJ [0], 0, 0, 600, 600);
       this.arregloTexto (15, fuente2, color(255));
       text ("ENERGIA: "+ this.juego.Jack.vidas + "%", 65, 20 );
