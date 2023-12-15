@@ -25,8 +25,8 @@ function preload() {
     texto = loadStrings ('assets/texto.txt');
     
   //carga de fuentes
-  fuente1 = loadFont ('assets/fuente1.ttf');
-  fuente2 = loadFont ('assets/fuente2.ttf');
+  fuente1 = loadFont ('assets/fuente1.TTF');
+  fuente2 = loadFont ('assets/fuente2.TTF');
 }
 
 function draw() {
