@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+header, nav, h1{
+    padding-bottom: 2%;
+    margin-top: auto;
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+body{
+    background-color: darkgoldenrod;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+div{
+    margin-top: 2px;
+}
+h1, h2, h3{
+    font-family: Kalnia, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h4, h5, h6{
+    font-family: Georgia, 'Times New Roman';
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+p{
+    font-family: Georgia, 'Times New Roman';
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0%;
+}
+button{
+    font-family: Georgia, 'Times New Roman';
+    margin-top: 3%;
+}
+.sm-12-md-6-lg-6{
+    margin-left: 3%;
+}
+.no-border{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-medium{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.container-lg, h6{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+@media (max-width: 600px){
+    nav button{
+    padding: 5%;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--ALUMNA: Camila Sánchez. Comision 2. Legajo 82331/7-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"/>
+    <link rel="stylesheet" href="estilos.css">
+    <title>El Gran Gatsby</title>
+</head>
+
+<header>
+    <div class="paper container">
+        <h1>El Gran Gatsby</h1>
+    </div>
+    <nav class="container">
+        <div class="row flex-center">
+            <a href="#bitacora"><button class="sm12 md4 lg4 col border-dotted">Bitácora</button></a>
+        </div>
+        <div class="row flex-center">
+            <a href="#aventura"><button class="sm12 md4 lg4 col border-dotted">Aventura Gráfica</button></a>
+        </div>
+        <div class="row flex-center">
+            <a href="#juego"><button class="sm12 md4 lg4 col border-dotted">Mini-Juego</button></a>
+        </div>
+    </nav>
+</header>
+
+<body>
+<!-- PROCESO -->
+    <div class="paper container">
+        <h2 id="bitacora">Bitácora</h2>
+        <div class="row">
+        <div class="sm-12 md-6 lg-6"><p>¡Hola! Mi nombre es Camila Sánchez, alumna de la carrera de Diseño Multimedia en la UNLP. Este proyecto comenzó en el marco de la Cátedra de Tecnología Multimedia 1, donde, por medio de las instancias de trabajos prácticos evaluativos, expusimos una aventura gráfica en Processing (Java) y un MiniJuego en P5JS (JavaScript) para finalmente unirlos en esta entrega final.</p></div>
+        <div class="sm-12 md-6 lg-6"><p>En esta sección iré contando un poco del proceso de ambos trabajos, su fusión y mi experiencia personal (la cual tomé como un gran desafío, ya que previo a la carrera nunca tuve acercamentiento con la programación).</p>
+        <p>¡No se olviden de jugar y disfrutar tanto la historia como el juego! Pueden encontrar el acceso en la sección de "mini-juego".</p>
+        </div>
+        </div>
+    
+        <div class="row">
+            <div class="sm-12 md-6 lg-6 col">
+                <div class="card">
+                    <img src="img/card-avent.png" alt="Card example image">
+                        
+                    <div class="card-body">
+                        <h4 class="card-title">El Gran Gatsby</h4>
+                        <p class="card-text">Nick Carraway se mudó a Long Island, Nueva York, en la próspera década de 1920. Acompañalo en esta nueva aventura descubriendo los secretos de sus excéntricos vecinos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sm-12 md-6 lg-6 col">
+                <a href="#juego">
+                    <div class="card">
+                        <img src="img/card-juego.png" alt="Card example image">
+                            
+                        <div class="card-body">
+                            <h4 class="card-title">La escapada!</h4>
+                            <p class="card-text">Jack fue descubierto por falsificación de su identidad y denunciado ante la policia de Nueva York que se presentó en la fiesta. Ayudalo a escapar a tiempo de la mansión.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="paper container">
+        <h2 id="aventura"> Aventura Gráfica </h2>
+        <article>
+            <p>Para el trabajo práctico n°3 sobre la Aventura Gráfica debiamos elegir uno de los cuentos recomendados por la Catédra. En mi caso, como ya habrán podido deducir, mi opción fue "El Gran Gatsby" por F. Scott Fitzgerald. El objetivo era lograr un diagrama de flujo en las decisiones que tuviera el usuario para que pudiera ser derivado a tres posibles finales. Para esto la historia original debia contemplar algunas adaptaciones creativas.</p>
+            <img class="no-border" src="img/diagrama.png" alt="" width="700" height="450">
+            <p>En lo personal creo que mi elección fue un poco ambiciosa. Elegí el cuento por la estética de la decada del '20 que me permitía jugar con distintos recursos visuales, pero eso se volvió una complicación al momento de unirlo con el mini-juego.</p>
+            <div class="row flex-middle">
+                <div class="sm-4 col"></div>
+                <div class="sm-6 col">
+                    <a href="https://www.imprentanacional.go.cr/editorialdigital/libros/literatura%20universal/el_gran_gatsby_edincr.pdf" target="_blank"><button class="btn-medium">Leé el cuento acá!</button></a>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div class="paper container">
+        <h2 id="juego">Mini-Juego </h2>
+        <article>
+            <p>Acá es donde las cosas se empezaron a complicar jaja! Esta seccion es una recopilación de todas las etapas por las que paso el mini-juego. Comenzamos:</p>
+            <p> En esta instancia, para el trabajo práctico n°4 debíamos crear un mini-juego en P5js. Por este programa debiamos comprender una nueva sintaxis (que por suerte no fue tan distinta de la que veníamos usando en Processing). La cátedra volvió a recomendar juegos sencillos para elegir y en nuestra comisión nos recomendaron dinámicas como runner o recolector.</p>
+            <p>Para este mini-juego armé un recolector de medusas, donde el pescador Jin con su red tenía un tiempo limite para recolectar hasta 10 medusas.</p>
+            <img class="no-border" src="img/tp4menu.png" alt="" width="400" height="300">
+            <p>Hasta ahí venía todo genial. El tema fue cuando en el próximo trabajo tuvimos que fusionar la historia de la aventura gráfica con el juego. ¿Cómo iba a hacer para unir a un pescador de medusas con un cuento de la alta sociedad en la década de 1920?</p>
+            <img class="no-border" src="img/gif-desmayo.gif" alt="">
+            <p>Bueno.... al final no fue tan dramático jaja.</p>
+            <p>En cuanto a la parte del código, el juego debia estar orientado a objetos. De alguna forma mi mente supo surfear el desafió y el pescador se volvió el personaje de Jack Gatsby (en realidad se llama Jay pero no vamos a dejar que un eror de tipeo nos distraiga) y las medusas pasaron a ser policias en acción!</p>
+            <img class="no-border" src="img/tp5juego.png" alt="">
+            <p>Finalmente, llegando a la instancia final del trabajo práctico n°6, el juego debia estar integrado dentro de la historia, por lo que debiamos pasar la aventura de Java a JavaScript. Puntualmente esta parte para mi fue algo complicada en cuestion de tiempo, debido a que venia algo atrasada por el recuperatorio del trabajo anterior. Una vez logré comprender las clases y objetos, ya el trabajo estaba listo para su entrega y defensa.</p>
+            <div class="row flex-middle">
+                <div class="sm-4 col"></div>
+                <div class="sm-6 col"><a href="tp6final/index.html" target="_blank"><button class="btn-medium">Podes jugar acá!</button></a></div>
+            </div>
+            <p>Esta imagen corresponde al menú de la entrega final.</p>
+            <img id="cuento" class="no-border" src="img/tp6juego.png" alt="">
+
+        </article>
+    </div>
+
+ <!--AGRADECIMIENTOS-->
+ <footer class="container-lg">
+    <h6> Gracias UNLP. Universidad pública, gratuita y de calidad</h6>
+ </footer>
+</body>
+</html>
